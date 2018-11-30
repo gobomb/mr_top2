@@ -6,7 +6,6 @@
 
 ```bash
 cd /root
-mkdir input
 docker clone https://github.com/gobomb/mr_top2.git
 ```
 
