@@ -1,5 +1,7 @@
 #!/bin/sh
 
+mkdir -p /root/input
+
 export DATA_PATH=/root/input
 export OUTPUT_PATH=/root/output
 export HADOOP_PREFIX=/usr/local/hadoop
