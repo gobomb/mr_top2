@@ -1,6 +1,7 @@
 #!/bin/sh
 
 mkdir -p /root/input
+mkdir -p /root/output
 
 export DATA_PATH=/root/input
 export OUTPUT_PATH=/root/output
