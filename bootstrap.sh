@@ -19,6 +19,8 @@ $HADOOP_PREFIX/sbin/start-yarn.sh
 
 
 sleep 10
+CODE_REPO=$(curl ${ALGORITHM_MODEL})
+git clone git@${ALGORITHM_MODEL}${CODE_REPO} /root/code
 
 /root/code/getdata.sh
 
